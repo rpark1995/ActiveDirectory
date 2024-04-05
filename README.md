@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab Set-up</h1>
+<h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
 In this lab, I am going to create an Active Directory home lab using Oracle VM VirtualBox. I will demonstrate step-by-step how to download Oracle VM VirtualBox and two Windows ISO servers to create two virtual machines. The purpose of Active Directory is to grant administrators priveleges to manage permissions and access to network resources. 
@@ -17,8 +17,8 @@ In this lab, I am going to create an Active Directory home lab using Oracle VM V
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Change system name using "sconfig" in Command Prompt: <br/>
+<img src="https://i.imgur.com/Hhk34Cn.png" height="80%" width="80%" alt="Change System Name"/>
 <br />
 <br />
 Select the disk:  <br/>
