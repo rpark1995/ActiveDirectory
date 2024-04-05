@@ -17,8 +17,11 @@ In this lab, I am going to create an Active Directory home lab using Oracle VM V
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Change system name using "sconfig" in Command Prompt: <br/>
+Change system name using "sconfig" in Command Prompt: <br />
 <img src="https://i.imgur.com/Hhk34Cn.png" height="80%" width="80%" alt="Change System Name"/>
+<br />
+<br />
+<img src="https://i.imgur.com/zdD3Xjm.png" height="80%" width="80%" alt="Change System Name"/>
 <br />
 <br />
 Select the disk:  <br/>
