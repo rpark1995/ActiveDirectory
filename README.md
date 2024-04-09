@@ -36,8 +36,8 @@ This will now take you to 'Features'. You do not need to add any additional feat
 <img src="https://i.imgur.com/f8C0Xv5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The next two sections ('AD DS' and 'DNS Server') do not require any action so click on next for both sections. This will then take you to the 'Confirmation' section, which displays the roles you just added and want to install. First, check the checkbox 'Restart the destination server automatically if required'. Then, click on 'Install' and wait for the installation process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/D80zygd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
