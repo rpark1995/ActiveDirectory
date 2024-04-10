@@ -44,8 +44,29 @@ Once the installation is complete, you will see a notification on the flag icon 
 <img src="https://i.imgur.com/zkhZGUo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After clicking on 'Promote this server to a domain controller', a box should open. This will take you to 'Deployment Configuration'. In this section, select 'Add a new forest'. Next, type the root domain name in the textbox for the new forest. In my case, I used 'mydomain.com'. :  <br/>
+<img src="https://i.imgur.com/XxnC5g3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+In the 'Domain Controller Options' section, type in a password for the Directory Services Restore Mode. Use a password that is easy to remember. This is necessary if you want to restore the AD from backup. Click 'Next'. :  <br/>
+<img src="https://i.imgur.com/Oz88rXu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+In 'Additional Options', the NET BIOS name will be verified. Nothing needs to be done, so click on 'Next' to accept the name. :  <br/>
+<img src="https://i.imgur.com/IY4AdO9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br />
+<br />
+In 'Paths', this will display the default database, log files, and SYSVOL folders. Again, othing needs to be done, so click on 'Next'. :  <br/>
+<img src="https://i.imgur.com/MkxB76r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br />
+<br />
+The wizard will perform some prerequisite checks to ensure AD can be installed on the server. In this case, the server passed all the checks. There were a few warnings, but that is normal and ok as long as the test passed. Click 'Install' to configure AD on the server. The machine will restart automatically. :
+<img src="https://i.imgur.com/0cuunFV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+Once restarted, you will need to log in with the domain administrator account. Notice how the username displays 'MYDOMAIN\Administrator'. You will log in using the password you created while creating a virtual machine. :  <br/>
+<img src="https://i.imgur.com/PTf1YhN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br/>
 </p>
 
 <!--
