@@ -49,7 +49,7 @@ After clicking on 'Promote this server to a domain controller', a box should ope
  <br />
 <br />
 In the 'Domain Controller Options' section, type in a password for the Directory Services Restore Mode. Use a password that is easy to remember. This is necessary if you want to restore the AD from backup. Click 'Next'. :  <br/>
-<img src="https://i.imgur.com/Oz88rXu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M4OJvvH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 In 'Additional Options', the NET BIOS name will be verified. Nothing needs to be done, so click on 'Next' to accept the name. :  <br/>
