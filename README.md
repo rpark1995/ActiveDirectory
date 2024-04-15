@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab - Add Roles and Users</h1>
+<h1>Active Directory Home Lab - Add Roles</h1>
 
 <h2>Description</h2>
 In this lab, I am going to demonstrate how to add roles and features in Active Directory. The two roles I will add are Active Directory Domain Services and DNS (Domain Name Server).
